@@ -9,5 +9,7 @@ public class Maximize {
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://www.fb.com");
 		driver.manage().window().maximize();
+		System.out.println(driver.manage().window().getSize());
+		
 	}
 }
